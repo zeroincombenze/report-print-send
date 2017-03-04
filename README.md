@@ -44,7 +44,7 @@ promote its widespread use.
 which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
 [Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
 is mainly designed for Italian law and markeplace.
-Everytime, every Odoo DB and customized code can be replicated on local server.
+Everytime, every Odoo DB and customized code can be deployed on local server too.
 
 [//]: # (end copyright)
 [![chat with us](http://www.shs-av.com/wp-content/chat_with_us.png)](https://www.zeroincombenze.it/chi-siamo/contatti/)
