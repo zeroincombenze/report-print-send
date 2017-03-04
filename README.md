@@ -34,7 +34,7 @@ http://odoo-community.org/
 
 ----
 
-**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/)
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
 
 **OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
