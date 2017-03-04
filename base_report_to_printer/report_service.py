@@ -79,4 +79,5 @@ class virtual_report_spool(base_calendar.virtual_report_spool):
                                                                report_id)
         return res
 
+
 virtual_report_spool()
