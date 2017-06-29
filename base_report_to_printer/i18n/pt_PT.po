@@ -62,12 +62,12 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.action,type:0
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: base_report_to_printer
 #: field:printing.printer,model:0
 msgid "Model"
-msgstr ""
+msgstr "Modelo"
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
@@ -110,12 +110,12 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.report.xml.action,user_id:0
 msgid "User"
-msgstr ""
+msgstr "Utilizador"
 
 #. module: base_report_to_printer
 #: field:printing.report.xml.action,report_id:0
 msgid "Report"
-msgstr ""
+msgstr "Relatório"
 
 #. module: base_report_to_printer
 #: field:printing.printer,status:0
@@ -135,7 +135,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.action,name:0 field:printing.printer,name:0
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: base_report_to_printer
 #: view:printing.printer:0
@@ -190,7 +190,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #. module: base_report_to_printer
 #: field:ir.actions.report.xml,property_printing_action:0
@@ -242,4 +242,4 @@ msgstr ""
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_ir_actions_report_xml
 msgid "ir.actions.report.xml"
-msgstr ""
+msgstr "ir.actions.report.xml"

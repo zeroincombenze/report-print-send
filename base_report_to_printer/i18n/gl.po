@@ -110,7 +110,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.report.xml.action,user_id:0
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #. module: base_report_to_printer
 #: field:printing.report.xml.action,report_id:0
@@ -120,7 +120,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.printer,status:0
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #. module: base_report_to_printer
 #: model:ir.actions.act_window,name:base_report_to_printer.action_printing_printer_form
