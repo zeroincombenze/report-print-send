@@ -3,12 +3,15 @@
 [![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/report-print-send/badge.svg?branch=8.0)](https://coveralls.io/github/zeroincombenze/report-print-send?branch=8.0)
 [![codecov](https://codecov.io/gh/zeroincombenze/report-print-send/branch/8.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/report-print-send/branch/8.0)
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-8.svg)](https://github.com/OCA/report-print-send/tree/8.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/dev/8.0)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/man/)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+================================================================================================
+
 Report - Printing and Sending
-=============================
 
 This project aim to deal with modules related to manage document printing and sending in a generic way. You'll find modules that:
 
@@ -19,14 +22,12 @@ This project aim to deal with modules related to manage document printing and se
 
 [//]: # (addons)
 Available addons
-----------------
 addon | version | summary
 --- | --- | ---
 [base_report_to_printer](base_report_to_printer/) | 8.0.0.2.0 | Report to printer
 [printer_tray](printer_tray/) | 8.0.1.0.1 | Report to printer - Paper tray selection
 
 Unported addons
----------------
 addon | version | summary
 --- | --- | ---
 [pingen](pingen/) | 1.0 (unported) | pingen.com integration
