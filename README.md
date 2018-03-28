@@ -9,10 +9,12 @@
 
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
+================================================================================================
 ================================================================================================
 
 Report - Printing and Sending
+=============================
 
 This project aim to deal with modules related to manage document printing and sending in a generic way. You'll find modules that:
 
@@ -49,4 +51,24 @@ is mainly designed for Italian law and markeplace.
 Everytime, every Odoo DB and customized code can be deployed on local server too.
 
 [//]: # (end copyright)
+[//]: # (addons)
+
+
+Available addons
+----------------
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[base_report_to_printer](base_report_to_printer/) | 0.2 | :repeat: | Report to printer
+[printer_tray](printer_tray/) | 1.0 | :repeat: | Report to printer - Paper tray selection
+
+
+Unported addons
+---------------
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[pingen](pingen/) | 1.0 (unported) | :repeat: | pingen.com integration
+[pingen_document](pingen_document/) | 1.0 (unported) | :repeat: | pingen.com integration (document)
+
+[//]: # (end addons)
+
 [![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
