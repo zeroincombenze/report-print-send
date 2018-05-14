@@ -3,9 +3,56 @@
 [![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/report-print-send/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/report-print-send?branch=10.0)
 [![codecov](https://codecov.io/gh/zeroincombenze/report-print-send/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/report-print-send/branch/10.0)
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/report-print-send/tree/10.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/dev/10.0)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Report - Printing and Sending
 =============================
@@ -19,21 +66,22 @@ This project aim to deal with modules related to manage document printing and se
 
 [//]: # (addons)
 
+
 Available addons
 ----------------
-addon | version | summary
---- | --- | ---
-[base_report_to_printer](base_report_to_printer/) | 10.0.1.0.0 | Report to printer
-[printer_tray](printer_tray/) | 10.0.1.0.0 | Report to printer - Paper tray selection
-[printer_zpl2](printer_zpl2/) | 10.0.1.0.0 | Printer ZPL II
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[base_report_to_printer](base_report_to_printer/) | 10.0.1.0.0 | 10.0.2.0.1 | Report to printer
+[printer_tray](printer_tray/) | 10.0.1.0.0 | :repeat: | Report to printer - Paper tray selection
+[printer_zpl2](printer_zpl2/) | 10.0.1.0.0 | 10.0.1.1.2 | Printer ZPL II
 
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[pingen](pingen/) | 1.0 (unported) | pingen.com integration
-[pingen_document](pingen_document/) | 1.0 (unported) | pingen.com integration (document)
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[pingen](pingen/) | 1.0 (unported) | :repeat: | pingen.com integration
+[pingen_document](pingen_document/) | 1.0 (unported) | :repeat: | pingen.com integration (document)
 
 [//]: # (end addons)
 
