@@ -8,10 +8,64 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](http://erp9.zeroincombenze.it)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
-================================================================================================
 
 Report - Printing and Sending
+=============================
 
 This project aim to deal with modules related to manage document printing and sending in a generic way. You'll find modules that:
 
@@ -21,17 +75,22 @@ This project aim to deal with modules related to manage document printing and se
  - ...
 
 [//]: # (addons)
+
+
 Available addons
-addon | version | summary
---- | --- | ---
-[base_report_to_printer](base_report_to_printer/) | 9.0.2.0.0 | Report to printer
-[printer_tray](printer_tray/) | 9.0.1.0.0 | Report to printer - Paper tray selection
+----------------
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[base_report_to_printer](base_report_to_printer/) | 9.0.2.0.0 | 9.0.2.1.1 | Report to printer
+[printer_tray](printer_tray/) | 9.0.1.0.0 | 9.0.1.0.1 | Report to printer - Paper tray selection
+
 
 Unported addons
-addon | version | summary
---- | --- | ---
-[pingen](pingen/) | 1.0 (unported) | pingen.com integration
-[pingen_document](pingen_document/) | 1.0 (unported) | pingen.com integration (document)
+---------------
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[pingen](pingen/) | 1.0 (unported) | :repeat: | pingen.com integration
+[pingen_document](pingen_document/) | 1.0 (unported) | :repeat: | pingen.com integration (document)
 
 [//]: # (end addons)
 
