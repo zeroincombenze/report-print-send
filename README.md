@@ -56,6 +56,8 @@
 
 
 
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Report - Printing and Sending
@@ -75,7 +77,7 @@ Available addons
 ----------------
 addon | version | OCA version | summary
 --- | --- | --- | ---
-[base_report_to_printer](base_report_to_printer/) | 10.0.1.0.0 | 10.0.2.0.1 | Report to printer
+[base_report_to_printer](base_report_to_printer/) | 10.0.1.0.0 | 10.0.2.0.2 | Report to printer
 [printer_tray](printer_tray/) | 10.0.1.0.0 | :repeat: | Report to printer - Paper tray selection
 [printer_zpl2](printer_zpl2/) | 10.0.1.0.0 | 10.0.1.1.2 | Printer ZPL II
 
