@@ -93,12 +93,6 @@ class TestPrintingPrinter(TransactionCase):
                 fp.write(ppd_contents)
 
         cups.Connection().getPPD3.return_value = (200, 0, file_name)
-        cups.Connection().getPrinters.return_value = {
-            self.printer.system_name: {
-                'printer-info': 'info',
-                'printer-uri-supported': 'uri',
-            },
-        }
 
     def test_print_options(self):
         """
@@ -175,9 +169,11 @@ class TestPrintingPrinter(TransactionCase):
         """
         self.mock_cups_ppd(cups, file_name=False)
 
-        self.assertEqual(self.printer.name, 'Printer')
-        self.ServerModel.update_printers()
-        self.assertEqual(self.printer.name, 'info')
+        with mock.patch.object(
+            self.Model, '_prepare_update_from_cups'
+        ) as prepare_update_from_cups:
+            self.ServerModel.update_printers()
+            prepare_update_from_cups.assert_called_once()
 
     @mock.patch('%s.cups' % server_model)
     def test_prepare_update_from_cups_no_ppd(self, cups):
@@ -187,7 +183,7 @@ class TestPrintingPrinter(TransactionCase):
         self.mock_cups_ppd(cups, file_name=False)
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         vals = self.printer._prepare_update_from_cups(connection, cups_printer)
         self.assertFalse('tray_ids' in vals)
@@ -205,7 +201,7 @@ class TestPrintingPrinter(TransactionCase):
             fp.write(ppd_header)
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         vals = self.printer._prepare_update_from_cups(connection, cups_printer)
         self.assertFalse('tray_ids' in vals)
@@ -222,7 +218,7 @@ class TestPrintingPrinter(TransactionCase):
         self.mock_cups_ppd(cups)
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         with self.assertRaises(OSError):
             self.printer._prepare_update_from_cups(connection, cups_printer)
@@ -243,7 +239,7 @@ class TestPrintingPrinter(TransactionCase):
         self.mock_cups_ppd(cups)
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         vals = self.printer._prepare_update_from_cups(connection, cups_printer)
         self.assertEqual(vals['tray_ids'], [(0, 0, {
@@ -259,7 +255,7 @@ class TestPrintingPrinter(TransactionCase):
         self.mock_cups_ppd(cups)
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         vals = self.printer._prepare_update_from_cups(connection, cups_printer)
         self.assertEqual(vals['tray_ids'], [(0, 0, {
@@ -277,7 +273,7 @@ class TestPrintingPrinter(TransactionCase):
         ])
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         vals = self.printer._prepare_update_from_cups(connection, cups_printer)
         self.assertEqual(vals['tray_ids'], [(0, 0, {
@@ -299,7 +295,7 @@ class TestPrintingPrinter(TransactionCase):
         ])
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         # Create a tray which is in the PPD file
         self.new_tray({'system_name': 'Tray1'})
@@ -318,7 +314,7 @@ class TestPrintingPrinter(TransactionCase):
         self.mock_cups_ppd(cups)
 
         connection = cups.Connection()
-        cups_printer = connection.getPrinters()[self.printer.system_name]
+        cups_printer = connection.getPrinters()
 
         # Create a tray which is absent from the PPD file
         tray = self.new_tray()

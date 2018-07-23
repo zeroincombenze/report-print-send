@@ -1,73 +1,11 @@
 [![Build Status](https://travis-ci.org/zeroincombenze/report-print-send.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/report-print-send)
-[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
+[![license lgpl](https://img.shields.io/badge/licence-LGPL--3-7379c3.svg)](https://www.gnu.org/licenses/lgpl.html)
 [![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/report-print-send/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/report-print-send?branch=10.0)
 [![codecov](https://codecov.io/gh/zeroincombenze/report-print-send/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/report-print-send/branch/10.0)
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/report-print-send/tree/10.0)
 [![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
 [![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
@@ -99,28 +37,11 @@ Settings can be configured:
 Installation
 ------------
 
-
-
-
-
-
 * Install PyCups - https://pypi.python.org/pypi/pycups
-
-.. code-block:: bash
-
-   sudo apt-get install cups
-   sudo apt-get install libcups2-dev
-   sudo apt-get install python-dev OR sudo apt-get install python3-dev
-   sudo easy_install pycups OR sudo pip install pycups
 
 
 Configuration
 -------------
-
-
-
-
-
 
 After installing enable the "Printing / Print User" option under access
 rights to give users the ability to view the print menu.
@@ -128,12 +49,6 @@ rights to give users the ability to view the print menu.
 
 Usage
 -----
-
-
-
-
-
-
 
 =====
 
@@ -159,18 +74,8 @@ Known issues / Roadmap
 
 
 
-
-
-
-
-
 Bug Tracker
 -----------
-
-
-
-
-
 
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/report-print-send/issues>`_. In case of trouble, please
@@ -180,26 +85,11 @@ help us smashing it by providing a detailed and welcomed feedback.
 Credits
 -------
 
-
-
-
-
-
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-
-
-
-
-
 ### Contributors
-
-
-
-
-
 
 * Ferran Pegueroles <ferran@pegueroles.com>
 * Albert Cervera i Areny <albert@nan-tic.com>
@@ -214,15 +104,6 @@ Images
 ### Funders
 
 ### Maintainer
-
-
-
-
-
-
-
-
-
 
 .. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
@@ -247,15 +128,15 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 **zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
-which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
-[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+which distributes and promotes **Odoo** ready-to-use on own cloud infrastructure.
+[Zeroincombenze® distribution of Odoo](http://wiki.zeroincombenze.org/en/Odoo)
 is mainly designed for Italian law and markeplace.
-Everytime, every Odoo DB and customized code can be deployed on local server too.
+Users can download from [Zeroincombenze® distribution](https://github.com/zeroincombenze/OCB) and deploy on local server.
 
 [//]: # (end copyright)
 
-[//]: # (addons)
 
-[//]: # (end addons)
+
+
 
 [![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
